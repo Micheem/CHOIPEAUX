@@ -1,0 +1,80 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #282a36;
+  text-align: center;
+  color:#f8f8f2;
+}
+h1 { 
+  color: #f8f8ee;
+  background-clip:border-box;
+  -webkit-border-radius: 5px;
+
+}
+h1:hover {
+  color: orange #60612e;
+
+}
+h3{
+  color:#8be9fd;
+}
+#img{  
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0px auto;
+}
+
+#start{
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 5;
+  font-size: 25pt;
+  letter-spacing: 10px;
+  color: rgb(49, 13, 63);
+  border-style: outset ;
+  -moz-border-radius:75px;
+  -webkit-border-radius: 75px;
+}
+
+#start:hover{
+  color: rgba(14, 0, 94, 0.801);
+}
+#maisons{
+  -moz-border-radius:75px;
+  -webkit-border-radius: 75px;
+}
+
+#user_house{
+  -webkit-border-radius: 75px;
+
+}
+
+#texte_qst{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: monospace;
+  font-size: 2em;
+  text-shadow: .1em .1em 0 hsl(200 50% 30%);
+
+}
+
+button {
+  margin: 30px;
+	cursor: pointer;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px solid rgb(16, 3, 41);
+	box-shadow: 15px 15px 0 rgb(126, 34, 34),
+		-15px -15px 0 rgb(12, 11, 124),
+		-5px 5px 0 transparent,
+		5px -5px 0 transparent;
+	transition: 500ms ease-in-out;
+}
+
+button:hover {
+	box-shadow: 20px 5px 0 rgb(116, 9, 9), -20px -5px 0 rgb(12, 11, 109);
+}
